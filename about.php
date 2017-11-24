@@ -81,7 +81,7 @@ background: none;
 	<?php  
 		
 
-	$id = $_GET['id'];
+	$id = isset($_GET['id']) ? $_GET['id'] : ' ';;
 	include 'sidenavhtml.php';
 	?>
 	<div id="main" >
@@ -95,22 +95,98 @@ background: none;
         <div class="col-sm-2"></div>
         <div class="col-sm-8" style="margin-top:1em; ">
 					<div class="col-md-12 card">
-						<img src="ag.png" alt="andersonrecruitlogo.png" style="width:75%;height:75%; margin-top:2em; margin-left:8em;"/>
+						<img src="ag.png" alt="andersonrecruitlogo.png" style="width:60%;height:60%; margin-top:2em; margin-left:8em;"/>
 						<div class="modal-body" style="text-align: justify;text-justify: inter-word;font-size:14px;">
                             <!--Anderson Recruitment Management System (ARMS)-->
                             
 				<p>&nbsp &nbsp &nbsp Anderson Recruits is an online recruitment system which can be accessed by corporate recruiters via web browsers anytime.The system offers sophisticated features such as real-time online application form, candidate search etc. What's more, a powerful filtering technology is incorporated to let HR professionals screen out unqualified candidates and reduce their workload. With the Candidate Alert technology and customizable searching criteria, the system will automatically search on the database for the newly registered job seekers and alert the users to ensure that they don’t miss out on any talents. The Human Resources department implemented this system in order to automate many of the tasks of the application process.</p>
-					<p>Developers :</p><CENTER>
-						<p style="font-size:12px;"><strong>Arth Da&ntilde;o &nbsp|&nbsp
-						John Loyd Camince &nbsp|&nbsp
-						Edward John Flores &nbsp|&nbsp
-						Carby Leonor &nbsp|&nbsp
-						Raiven Kenn Lopez  &nbsp|&nbsp
-                        Jomariette Kristine Suarez  &nbsp|&nbsp
-                        Neco Caramonte &nbsp|&nbsp
-                    	Mark Arjel Cabais</strong></p></br></CENTER>
-                        <h6 class="text-muted" align="center">version 2.0</h6>
-					</div>
+	<div class="panel panel-default">					
+    <div class="panel-heading">
+        <h3 class="panel-title">Developed By</h3>
+    </div>
+    <div class="panel-body">
+        <ul>
+            <li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+                Arth Daño              
+                <br />
+                <span class="badge">2016-12 - 2017-02</span>
+			</li>
+			
+			<li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+				Carby Leonor
+                <br />
+                <span class="badge">2016-12 - 2017-01</span>
+			</li>
+			
+			<li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+				John Loyd Camince
+                <br />
+                <span class="badge">2016-12 - 2017-01</span>
+			</li>	
+			
+			<li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+				Edward John Flores 
+                <br />
+                <span class="badge">2016-02 - 2017-05</span>							
+			</li>
+			
+			<li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+			    Raiven Kenn Lopez
+                <br />
+                <span class="badge">2016-02 - 2017-05</span>
+			</li>
+			
+			<li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">			
+				Glizzel Ann Toledo
+                <br />
+                <span class="badge">2017-07 - 2017-11</span>
+			</li>	
+			
+			<li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+				Marvin Aril
+                <br />
+                <span class="badge">2020-12 - 2020-12</span>				 
+			</li>
+			
+			<li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">			
+				Mark Arjel Cabais
+                <br />
+                <span class="badge">2020-12 - 2020-12</span>
+            </li>
+			
+            <li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+               Mariel Tirad
+                <br />
+                <span class="badge">2020-12 - 2020-12</span>
+            </li>
+			
+            <li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+			   Neco Caramonte
+                <br />
+                <span class="badge">2020-12 - 2020-12</span>
+            </li>	
+			
+            <li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+               Melvin Anonical
+                <br />
+                <span class="badge">2020-12 - 2020-12</span>
+            </li>
+					
+			<li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+               Rafael Laurence Perez
+                <br />
+                <span class="badge">2020-12 - 2020-12</span>
+            </li>
+
+			<li class="col-xs-6 col-sm-6 col-md-3 col-lg-4">
+               Jomariette Kristine Suarez
+                <br />
+                <span class="badge">2020-12 - 2020-12</span>
+            </li>			
+			
+        </ul>
+   </div>
+						
 						
 					</div>
 				</div>
